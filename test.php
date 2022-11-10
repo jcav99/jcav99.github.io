@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    Thank you for submimtting the website <?php echo $_GET["site"]; ?><br>
-    Your description is: <?php echo $_GET["desc"]; ?>
+    <p>Thank you for submimtting the website <?php echo $_GET["site"]; ?><br>
+    Your description is: <?php echo $_GET["desc"]; ?></p>
 <!-- Code injected by live-server -->
 <script>
 	// <![CDATA[  <-- For SVG support

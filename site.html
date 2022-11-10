@@ -7,6 +7,12 @@
     <title>Safe Sites</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <script>
+        function saveData(){
+            console.log(document.getElementById("site").value);
+            console.log(document.getElementById("desc").value);
+        }
+    </script>
 </head>
 <body>
     <header class="container">
@@ -24,12 +30,12 @@
         <p class="description">Backpack.tf is a trading site which allows you to connect with people easily.  It is a lot bigger than scrap.tf, but also more complicated.  Should be used once you become more experienced in trading.</p>
     </div>
     <h2>Do you have any other websites that you find useful? Submit them here!</h2>
-    <form method="POST" action="./test.php" target="_blank">
+    <form>
         <label for="site">Website:</label>
-        <input type="text" id="fname" name="fname"><br><br>
+        <input type="text" id="site" name="fname"><br><br>
         <label for="desc">Description:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
+        <input type="text" id="desc" name="lname"><br><br>
+        <button type="button" id="submit" name="submit" onclick="saveData();">Submit</button>
       </form>
 </body>
 </html>
