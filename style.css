@@ -51,9 +51,9 @@ h2 {
 .websitetable{
     display:grid;
     grid-template-columns:auto auto;
+    justify-content:center;
     text-align:center;
-    border:1px solid black;
-    margin:50px;
+    border:solid black thin;
     border-radius:10px;
 }
 
@@ -64,12 +64,16 @@ h2 {
 }
 
 .website{
-    border:1px solid black;
     font-weight:bold;
+    font-size:15px;
 }
 
 .description{
-    border:1px solid black;
     font-family:sans-serif;
     font-size:20px;
+}
+
+li{
+    font-family:sans-serif;
+    font-size:17px;
 }
