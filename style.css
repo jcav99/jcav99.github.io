@@ -57,10 +57,19 @@ h2 {
     border-radius:10px;
 }
 
-@media screen and (max-width:720px){
+@media screen and (max-width:1460px){
     .container{
         grid-template-columns:auto auto;
     }
+    .loginintro{
+        margin-right:auto;
+        font-size:18px;
+    }
+    .RealLogin{
+        height:50%;
+        width:50%;
+    }
+    
 }
 
 .website{
@@ -76,4 +85,10 @@ h2 {
 li{
     font-family:sans-serif;
     font-size:17px;
+}
+
+.deck{
+    height:30%;
+    width:30%;
+    float:right;
 }
