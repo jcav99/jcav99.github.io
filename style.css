@@ -1,5 +1,5 @@
 body{
-    background-color:greenyellow;
+    background-color:#7FAA4D;
 }
 
 h1{
@@ -19,7 +19,7 @@ p{
 }
 
 .logo{
-    height:100%;
+    height:75%;
     width:50%;
 }
 
@@ -40,7 +40,7 @@ p{
     font-size:25px;
 }
 
-.container:hover{
+.link:hover{
     background-color:darkgreen;
 }
 
@@ -59,8 +59,8 @@ h2 {
 
 .gallery{
     display:grid;
-    object-fit:cover;
-    grid-template-columns:auto auto auto;
+    grid-template-rows:repeat(auto-fit, minmax(100px,1fr));
+    grid-template-columns:repeat(auto-fit, minmax(100px,1fr));
 }
 
 @media screen and (max-width:1460px){
@@ -76,8 +76,8 @@ h2 {
         width:50%;
     }
     .gallery{
-        grid-template-columns:auto;
-        grid-template-rows:auto auto auto;
+        grid-template-columns:auto auto;
+        grid-template-rows:auto auto;
     }
 }
 
@@ -98,7 +98,7 @@ li{
 
 .deck{
     height:100%;
-    width:50%;
+    width:75%;
 }
 
 .HomeImage{
